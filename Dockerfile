@@ -1,5 +1,5 @@
 FROM centos/ruby-25-centos7
-USER default
+USER root
 EXPOSE 8080
 ENV RACK_ENV production
 ENV RAILS_ENV production
